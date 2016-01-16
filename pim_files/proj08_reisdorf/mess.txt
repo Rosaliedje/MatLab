@@ -1,0 +1,27 @@
+else
+% %              DEM             2-D numeric array   Digital Elevation Model
+% % VolOut = calcvol(h,DEM,CellSizeX,CellSizeY)
+% %  Date            : 11-Sep-2003
+% %                                                  volume in each gridcell
+% %              CellSizeX       1x1 numeric array   cell size in x-direction
+[NumX,NumY] = size(DEM);
+% %
+% %              CellSizeY       1x1 numeric array   cell size in y-direction
+% %  input       h               1x1 numeric array   water height
+Vol(i,j) = (h - DEM(i,j)) * CellSizeX * CellSizeY;
+end
+VolOut = Vol;
+end
+for j=1:NumY
+% %  Authors         : J.H.Spaaks & P.Kraal
+function VolOut = calcvol(h,DEM,CellSizeX,CellSizeY)
+Vol(i,j) = 0 * CellSizeX * CellSizeY;
+% % Keywords: dam, waterlevel, waterheight, volume
+% %              name            dimension           description
+for i=1:NumX
+end
+% %  Matlab version  : 6.5 R13
+% %                                                  
+if  h - DEM(i,j) >= 0
+% %  output      VolOut          2-D numeric array   array containing the water 
+% %

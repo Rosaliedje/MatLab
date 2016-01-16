@@ -1,0 +1,18 @@
+testfile for textread
+J.H. Spaaks & P.Kraal
+
+soil profile       : A234.3
+date               : 15-Sep-2003
+
+soil horizon       : nominal class - FAO classification
+depth              : depth of top of soil horizon
+thickness          : thickness of soil horizon
+root density class : 1=very high,2=high,3=intermediate,
+                     4=low,5=very low,6=no roots
+
+soil horizon    depth    thickness    root density class
+[-]             [m]      [m]          [m/m3]	
+Ah, 0,  0.15,  1
+Bs, -0.15,    0.18,  3
+Bt, -0.33,  0.09,  5
+1C, -0.42,       2.07, 5
